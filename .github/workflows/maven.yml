@@ -21,4 +21,4 @@ jobs:
       with:
         java-version: 11
     - name: Test with Maven
-      run: mvn -X test
+      run: cd java && mvn test -X
